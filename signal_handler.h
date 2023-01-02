@@ -1,14 +1,3 @@
-/* signal_handler.h
- * Copyright (c) 2012 The Chromium OS Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- *
- * Signal handling functions.
- */
-
-#ifndef SIGNAL_HANDLER_H
-#define SIGNAL_HANDLER_H
-
-int install_sigsys_handler(void);
-
-#endif /* SIGNAL_HANDLER_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:92df7256063d04eeb68ceef66c7adacaf03489c8a0c0c331fdd5351377f1640b
+size 346

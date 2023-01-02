@@ -1,6 +1,3 @@
-#/bin/bash
-
-PV="1.10.0"
-
-wget -q -nc --secure-protocol=TLSv1 "https://github.com/google/googletest/archive/release-${PV}.tar.gz" -O "googletest-release-${PV}.tar.gz"
-tar zxvf "googletest-release-${PV}.tar.gz"
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b8a267dbba5957acf512b83b182abb05e371f32764b863cf4b99f9e507f4fa6
+size 209

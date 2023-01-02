@@ -1,8 +1,3 @@
-bslot=@BSLOT@
-include_dir=@INCLUDE_DIR@
-
-Name: libminijail
-Description: Minijail shared library.
-Version: ${bslot}
-CFlags: -I${include_dir}
-Libs: -lminijail
+version https://git-lfs.github.com/spec/v1
+oid sha256:295853fb3f7084513467814093f8f0bd2e16afd5432995f39245a1dc6de12ff5
+size 157

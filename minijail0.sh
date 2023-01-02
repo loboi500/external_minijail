@@ -1,9 +1,3 @@
-#!/bin/sh
-# Copyright 2020 The Chromium OS Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-# Helper for running minijail0 in a compiled checkout.
-
-dir="$(dirname "$0")"
-exec "${dir}/minijail0" --preload-library="${dir}/libminijailpreload.so" "$@"
+version https://git-lfs.github.com/spec/v1
+oid sha256:1722c2a7cf83fe8dbabf0696a77a8966f7f5db8c1d064dff61e665dc635e5be4
+size 332

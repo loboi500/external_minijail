@@ -1,16 +1,3 @@
-{
-  "presubmit": [
-    {
-      "name": "libminijail_unittest_gtest"
-    },
-    {
-      "name": "mj_system_unittest_gtest"
-    },
-    {
-      "name": "mj_util_unittest_gtest"
-    },
-    {
-      "name": "syscall_filter_unittest_gtest"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a66dff5b5b48c0bd922c1d0b2f9af0e729a9b6b0c7970709615465b588b7f595
+size 245

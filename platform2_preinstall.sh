@@ -1,15 +1,3 @@
-#!/bin/bash
-
-# Copyright 2015 The Chromium OS Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-set -e
-
-v=$1
-include_dir=$2
-
-sed \
-  -e "s/@BSLOT@/${v}/g" \
-  -e "s:@INCLUDE_DIR@:${include_dir}:g" \
-  "libminijail.pc.in" > "libminijail.pc"
+version https://git-lfs.github.com/spec/v1
+oid sha256:03a07ac6347fde686b48ee579ce759f084c9e3c066a4ef69ceb7ba0629099f6d
+size 323
